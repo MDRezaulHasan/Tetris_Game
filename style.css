@@ -1,0 +1,20 @@
+body{
+    background:#1e1e29;
+    color: #fff;
+    
+}
+.gameField{
+    font-size: 2em;
+    text-align: center;   
+    font-family: sans-serif;
+}
+
+canvas{
+    border: solid.2em #fff;   
+    height: 90vh;
+}
+.developer{
+    border: solid.2em rgb(183, 170, 233);
+    text-align: center;   
+
+}
