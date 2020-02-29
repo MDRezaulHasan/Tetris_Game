@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tetris Game</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="developer">
-        <h5>MD. Rezaul Hasan(Software Developer)</h5>
-        <h6>Developer of this game.</h6>
+      <h4>MD. Rezaul Hasan(Software Developer)</h4>
+      <h6>Developer of this game.</h6>
     </div>
-    <div class="gameField">
+    <div class="rules">
+      <h4>How to play:</h4>
+      <ul>
+        <li>Rotation of tetris: press W,Q button in your key board.</li>
+        <li>
+          For right & left : press arrow button in your key board.
+        </li>
+        <li>
+          For down : press down arrow button in your key board.
+        </li>
+      </ul>
+      <div class="gameField">
         <div id="score"></div>
         <canvas id="tetris" width="240" height="400"></canvas>
         <script src="tetris.js"></script>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
